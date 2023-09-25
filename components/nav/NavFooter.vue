@@ -31,7 +31,7 @@ function toggleDark() {
       <CommonTooltip :content="$t('magic_keys.dialog_header')">
         <button flex i-ri:keyboard-box-line dark-i-ri:keyboard-box-line text-lg :aria-label="$t('magic_keys.dialog_header')" @click="toggleKeyboardShortcuts" />
       </CommonTooltip>
-      <CommonTooltip :content="$t('settings.about.sponsor_action')">
+      <!-- <CommonTooltip :content="$t('settings.about.sponsor_action')">
         <NuxtLink
           flex
           text-lg
@@ -40,7 +40,7 @@ function toggleDark() {
           href="https://github.com/sponsors/elk-zone"
           target="_blank"
         />
-      </CommonTooltip>
+      </CommonTooltip> -->
     </div>
     <div>
       <i18n-t v-if="isHydrated" keypath="nav.built_at">

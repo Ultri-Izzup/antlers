@@ -72,7 +72,7 @@
     "reset": "Reset",
     "save": "Save",
     "save_changes": "Save changes",
-    "sign_in": "Sign in",
+    "sign_in": "Remote Sign in",
     "sign_in_to": "Sign in to {0}",
     "switch_account": "Switch account",
     "vote": "Vote"
@@ -688,7 +688,7 @@
   "user": {
     "add_existing": "Add an existing account",
     "server_address_label": "Mastodon Server Address",
-    "sign_in_desc": "Sign in to follow profiles or hashtags, favorite, share and reply to posts, or interact from your account on a different server.",
+    "sign_in_desc": "Sign in to your remote Fediverse account to follow profiles or hashtags, favorite, share and reply to posts, or interact from your account on a different server.",
     "sign_in_notice_title": "Viewing {0} public data",
     "sign_out_account": "Sign out {0}",
     "single_instance_sign_in_desc": "Sign in to follow profiles or hashtags, favorite, share and reply to posts.",
