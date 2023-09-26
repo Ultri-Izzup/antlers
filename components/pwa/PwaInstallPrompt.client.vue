@@ -6,7 +6,7 @@
     flex="~ col gap-3"
     v-bind="$attrs"
   >
-    <h2 flex="~ gap-2" items-center>
+    <!-- <h2 flex="~ gap-2" items-center>
       {{ $t('pwa.install_title') }}
     </h2>
     <div flex="~ gap-1">
@@ -17,6 +17,6 @@
         {{ $t('pwa.dismiss') }}
       </button>
     </div>
-    <div i-material-symbols:install-desktop-rounded absolute text-6em bottom--2 inset-ie--2 text-primary dark:text-white op10 class="-z-1 rtl-flip" />
+    <div i-material-symbols:install-desktop-rounded absolute text-6em bottom--2 inset-ie--2 text-primary dark:text-white op10 class="-z-1 rtl-flip" /> -->
   </div>
 </template>
