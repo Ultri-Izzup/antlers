@@ -25,9 +25,11 @@ function handleShowCommit() {
     </template>
 
     <div flex="~ col gap4" w-full items-center justify-center my5>
-      <img :alt="$t('app_logo')" :src="`${''}/logo.svg`" w-24 h-24 class="rtl-flip">
-      <p text-lg>
-        {{ $t('app_desc_short') }}
+      <!-- <img :alt="$t('app_logo')" :src="`${''}/logo.svg`" w-24 h-24 class="rtl-flip"> -->
+
+      <p text-xl>
+        Izzup
+        <!-- {{ $t('app_desc_short') }} -->
       </p>
     </div>
 
@@ -51,14 +53,14 @@ function handleShowCommit() {
 
     <div h-1px bg-border my2 />
 
-    <SettingsItem
+    <!-- <SettingsItem
       :text="$t('nav.show_intro')"
       icon="i-ri:article-line"
       cursor-pointer large
       @click="openPreviewHelp"
-    />
+    /> -->
 
-    <SettingsItem
+    <!-- <SettingsItem
       text="Mastodon"
       icon="i-ri:mastodon-line"
       to="/m.webtoo.ls/@elk"
@@ -69,15 +71,15 @@ function handleShowCommit() {
       icon="i-ri:discord-fill"
       to="https://chat.elk.zone"
       external large target="_blank"
-    />
+    /> -->
     <SettingsItem
       text="GitHub"
       icon="i-ri:github-fill"
-      to="https://github.com/elk-zone/elk"
+      to="https://github.com/Ultri-Izzup/antlers"
       external large target="_blank"
     />
 
-    <div h-1px bg-border my2 />
+    <!-- <div h-1px bg-border my2 />
 
     <p px5 py3 font-bold text-lg>
       {{ $t('settings.about.sponsors') }}
@@ -107,9 +109,9 @@ function handleShowCommit() {
       </template>
     </SettingsItem>
 
-    <div h-1px bg-border my2 />
+    <div h-1px bg-border my2 /> -->
 
-    <template v-if="isHydrated">
+    <!-- <template v-if="isHydrated">
       <p px5 py3 font-bold text-lg>
         {{ $t('settings.about.meet_the_team') }}
       </p>
@@ -124,6 +126,6 @@ function handleShowCommit() {
           <img :src="`/avatars/${team.github}-60x60.png`" :alt="team.display" rounded-full w-8 h-8 height="32" width="32">
         </template>
       </SettingsItem>
-    </template>
+    </template> -->
   </MainContent>
 </template>

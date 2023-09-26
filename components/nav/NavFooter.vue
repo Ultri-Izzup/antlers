@@ -37,7 +37,7 @@ function toggleDark() {
           text-lg
           i-ri-heart-3-line hover="i-ri-heart-3-fill text-rose"
           :aria-label="$t('settings.about.sponsor_action')"
-          href="https://github.com/sponsors/elk-zone"
+          href="https://github.com/sponsors/Ultri-Izzup/"
           target="_blank"
         />
       </CommonTooltip> -->
@@ -53,7 +53,7 @@ function toggleDark() {
       <NuxtLink
         v-if="buildInfo.env === 'release'"
         external
-        :href="`https://github.com/elk-zone/elk/releases/tag/v${buildInfo.version}`"
+        :href="`https://github.com/Ultri-Izzup/antlers/releases/tag/v${buildInfo.version}`"
         target="_blank"
         font-mono
       >
@@ -64,7 +64,7 @@ function toggleDark() {
         &middot;
         <NuxtLink
           external
-          :href="`https://github.com/elk-zone/elk/commit/${buildInfo.commit}`"
+          :href="`https://github.com/Ultri-Izzup/antlers/commit/${buildInfo.commit}`"
           target="_blank"
           font-mono
         >
@@ -83,15 +83,7 @@ function toggleDark() {
         </NuxtLink>
       </template>
       &middot;
-      <NuxtLink href="/m.webtoo.ls/@elk" target="_blank">
-        Mastodon
-      </NuxtLink>
-      &middot;
-      <NuxtLink href="https://chat.elk.zone" target="_blank" external>
-        Discord
-      </NuxtLink>
-      &middot;
-      <NuxtLink href="https://github.com/elk-zone/elk" target="_blank" external>
+      <NuxtLink href="https://github.com/Ultri-Izzup/antlers" target="_blank" external>
         GitHub
       </NuxtLink>
     </div>
